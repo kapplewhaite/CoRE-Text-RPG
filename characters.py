@@ -10,3 +10,5 @@ class Character:
 
   def is_alive(self):
     return self.health > 0
+
+player = Character("Player", 100, 20)
